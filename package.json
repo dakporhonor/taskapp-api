@@ -1,0 +1,20 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "A Node app for managing tasks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,handlebars",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "validator": "^12.1.0"
+  }
+}
